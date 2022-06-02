@@ -1,7 +1,6 @@
 import client from "./client.ts";
 
-// NON USATO
-async function run() {
+async function main() {
   await client.execute(`
     create table regions (
       id bigint unsigned not null auto_increment primary key,
